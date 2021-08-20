@@ -1,0 +1,38 @@
+<section class="testimonial-one">
+    <div class="testimonial-one-bg" [style.background-image]="'url(assets/images/backgrounds/testimonial-v1-bg.png)'">
+    </div>
+    <div class="container">
+      <div class="row">
+          <div class="col-xl-6">
+              <div class="why-choose-one__content">
+                  <div class="section-title">
+                      <div class="section-title__tagline">
+                          <span class="left"></span>
+                          <h2>Pouquoi <br>OLEA DIGITAL</h2>
+                      </div>
+                      <!--<h2 class="section-title__title">Pourquoi<br>OLEA DIGITAL</h2>-->
+                  </div>
+                  <ul class="why-choose-one__list list-unstyled">
+                      <!-- Data -->
+                      <!--<li class="why-choose-one__list-single" *ngFor="let item of whyus">-->
+                        <li class="why-choose-one__list-single" *ngFor="let item of whyus">
+                          <div class="icon">
+                              <i class="fa fa-check" aria-hidden="true"></i>
+                          </div>
+                          <div class="text">
+                              <h3>{{item.title}}</h3>
+                              <p>{{item.text}}</p>
+                          </div>
+                      </li>
+                      <!-- Data -->
+                  </ul>
+              </div>
+          </div>
+          <div class="col-xl-6 wow slideInRight" data-wow-delay="500ms" data-wow-duration="2500ms">
+              <div class="why-choose-one__img">
+                  <img src="assets/images/resources/why-choose-one-img1.jpg" alt="img" />
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
