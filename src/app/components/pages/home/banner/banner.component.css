@@ -1,1 +1,4 @@
-img{background-image: red;}
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  .banner-one__banner-img {width: 300px;}
+
+  }
